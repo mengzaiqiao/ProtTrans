@@ -14,7 +14,7 @@ RUN apt-get install -y gcc python3-dev
 
 # Anaconda installing
 RUN wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
-RUN bash Anaconda3-2021.11-Linux-x86_64 -b
+RUN bash Anaconda3-2021.11-Linux-x86_64.sh -b
 RUN rm Anaconda3-2021.11-Linux-x86_64.sh
 
 # Set path to conda
