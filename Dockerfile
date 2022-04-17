@@ -1,6 +1,4 @@
-ARG BASE_IMAGE="nvidia/cuda:11.3.1-base-ubuntu20.04"
-
-FROM ${BASE_IMAGE}
+FROM "nvidia/cuda:11.3.1-base-ubuntu20.04"
 
 LABEL maintainer="Heterogeneous Graph Pretraining Project <zaiqiao.meng@gmail.com>"
 
