@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.3.1-base-ubuntu20.04
+FROM nvidia/cuda:11.3.1-runtime-ubuntu20.04
 
 LABEL maintainer="Heterogeneous Graph Pretraining Project <zaiqiao.meng@gmail.com>"
 
