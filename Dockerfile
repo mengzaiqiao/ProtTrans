@@ -51,4 +51,4 @@ RUN cd /root/ProtTrans
 # Jupyter listens port: 8888
 EXPOSE 8888
 
-CMD ["jupyter", "lab", "--allow-root", "--notebook-dir=/root/beta-recsys", "--ip='*'", "--port=8888", "--no-browser"]
+CMD ["jupyter", "lab", "--allow-root", "--notebook-dir=/root/ProtTrans", "--ip='*'", "--port=8888", "--no-browser"]
