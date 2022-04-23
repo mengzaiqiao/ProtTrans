@@ -13,6 +13,8 @@ RUN apt-get install -y wget bzip2
 RUN apt-get install -y git
 RUN apt-get install -y vim
 RUN apt-get install -y gcc python3-dev
+RUN apt-get install -y nodejs npm
+
 
 # Anaconda installing
 RUN wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
@@ -30,7 +32,6 @@ RUN conda update conda
 # Install pytorch  pytorch-geometric
 RUN conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 RUN conda install pyg -c pyg
-RUN sudo apt install -y nodejs npm
 RUN pip install jupyterlab-code-formatter
 RUN pip install black isort
 
