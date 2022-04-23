@@ -11,6 +11,7 @@ RUN apt-get install -y emacs
 # Adding wget and bzip2
 RUN apt-get install -y wget bzip2
 RUN apt-get install -y git
+RUN apt-get install -y vim
 RUN apt-get install -y gcc python3-dev
 
 # Anaconda installing
