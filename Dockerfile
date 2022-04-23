@@ -29,6 +29,9 @@ RUN conda update conda
 # Install pytorch  pytorch-geometric
 RUN conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 RUN conda install pyg -c pyg
+RUN pip install jupyterlab-code-formatter
+RUN pip install black isort
+
 
 # Configuring access to Jupyter
 RUN mkdir /root/notebooks
