@@ -35,6 +35,8 @@ RUN conda install pyg -c pyg
 RUN pip install jupyterlab-code-formatter
 RUN pip install black isort
 RUN pip install PyTDC
+RUN pip install wandb
+
 
 # Configuring access to Jupyter
 RUN mkdir /root/notebooks
