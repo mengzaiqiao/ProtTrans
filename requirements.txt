@@ -2,3 +2,4 @@ transformers==4.5.1
 bertviz
 PyTDC
 wandb
+adapter-transformers
