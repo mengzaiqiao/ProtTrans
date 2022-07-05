@@ -3,3 +3,5 @@ bertviz
 PyTDC
 wandb
 adapter-transformers
+pytorch-metric-learning
+lightgbm
