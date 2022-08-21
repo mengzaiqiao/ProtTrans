@@ -36,6 +36,8 @@ RUN pip install jupyterlab-code-formatter
 RUN pip install black isort
 RUN pip install PyTDC
 RUN pip install wandb
+RUN pip install -U adapter-transformers
+
 
 
 # Configuring access to Jupyter
